@@ -1,0 +1,26 @@
+p {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: larger;
+}
+
+.card-header{
+  background-color: dodgerblue;
+}
+
+.input{
+  width:90%;
+  font-family: 'Charm', cursive;
+}
+.card-body{
+  font-family: 'Charm', cursive;
+}
+i{
+  padding:10px;
+  height:40px;
+}
+
+h5{
+  text-align: right;
+  font-size: small;
+}

@@ -1,0 +1,29 @@
+GET https://chitchat-6e72b.firebaseio.com/.json
+
+###
+
+POST https://chitchat-6e72b.firebaseio.com/messages.json
+Content-Type: application/json
+
+{
+  "message": "hi",
+  "sender": "Rashmi",
+  "time": "2020-09-22 10:43:12Z",
+  "receiver": "SuriPaaji"
+}
+###
+DELETE https://chitchat-6e72b.firebaseio.com/messages/-MHuQbvmjsLJFz-PTO5I/time.json
+###
+PATCH https://chitchat-6e72b.firebaseio.com/messages/-MHuQbvmjsLJFz-PTO5I/sender.json
+Content-Type: application/json
+
+{
+"sender": "Queen"
+}
+###
+PUT https://chitchat-6e72b.firebaseio.com/messages/-MHuQbvmjsLJFz-PTO5I/sender.json
+Content-Type: application/json
+
+{
+  "sender": "KING "
+}
